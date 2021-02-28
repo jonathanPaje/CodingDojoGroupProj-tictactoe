@@ -19,9 +19,9 @@
 # 6. flip player
 #-----global variables-------
     #Game Board
-board = ["-","-","-",
-        "-","-","-",
-        "-","-","-",]
+board =[["-","-","-"],
+        ["-","-","-"],
+        ["-","-","-"]]
 
 	#If game is still going
 game_still_going =True

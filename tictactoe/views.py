@@ -1,6 +1,9 @@
 from django.shortcuts import render
-
+from . import gameplay
 def index(request):
-    return render(request, "home.html")
+    context={
+        "board" : gameplay.display_board()
+    }
+    return render(request, "home.html", context)
 
 # Create your views here.
